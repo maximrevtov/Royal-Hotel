@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,141 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Hello World</title>
 </head>
+
 <body class="page">
   <header class="header">
-    <nav class="nav header__nav">
-      <div class="nav__logo">
-        <img src="images/header/logo.svg" alt="Royal-Hotel Logo">
+    <div class="container">
+      <nav class="nav header__nav">
+        <div class="brand">
+          <div class="brand__logo">
+            <img class="brand__img" src="images/header/logo.svg" alt="Royal-Hotel Logo">
+          </div>
+          <h2 class="brand__title">Royal Hotel</h2>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">About</li>
+          <li class="nav__item">Rooms</li>
+          <li class="nav__item">Reviews</li>
+          <li class="nav__item">Contacts</li>
+        </ul>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title">About Hotel</h1>
+        <div class="header__descr">
+          The Royal Hotel is a hotel located in the very center of the capital of Russia, built in 2014. In a short
+          time,
+          the hotel has become a favorite tourist destination.
+        </div>
       </div>
-    </nav>
+    </div>
   </header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
+  <main class="main">
+    <section class="rooms">
+      <div class="container">
+        <div class="rooms__wrap">
+          <div class="rooms__item">
+            <div class="rooms__picture">
+              <img src="images/rooms/image 2.png" alt="Economy Class Room" class="rooms__img">
+            </div>
+            <h3 class="rooms__room-class">Economy</h3>
+            <p class="rooms__price">500$/day</p>
+          </div>
+          <div class="rooms__item">
+            <div class="rooms__picture">
+              <img src="images/rooms/image 3.png" alt="Standart Class Room" class="rooms__img">
+            </div>
+            <h3 class="rooms__room-class">Standart</h3>
+            <p class="rooms__price">750$/day</p>
+          </div>
+          <div class="rooms__item">
+            <div class="rooms__picture">
+              <img src="images/rooms/image 4.png" alt="Luxury Class Room" class="rooms__img">
+            </div>
+            <h3 class="rooms__room-class">Luxury</h3>
+            <p class="rooms__price">1750$/day</p>
+          </div>
+          <div class="rooms__item">
+            <div class="rooms__picture">
+              <img src="images/rooms/image 5.png" alt="Business Class Room" class="rooms__img">
+            </div>
+            <h3 class="rooms__room-class">Business</h3>
+            <p class="rooms__price">1299$/day</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__wrap">
+          <div class="reviews__item">
+            <div class="reviews__picture">
+              <img src="images/reviews/Ellipse 1.png" alt="Sergey Lazarev's comment" class="reviews__img">
+            </div>
+            <h2 class="reviews__name">Sergey Lazarev</h2>
+            <p class="reviews__comment">
+              Amazing hotel! Very polite staff, location in the city center. Here you can not only sleep, but also eat
+              delicious food. The best choice for a holiday in Moscow. I advise everyone!
+            </p>
+          </div>
+          <div class="reviews__item">
+            <div class="reviews__picture">
+              <img src="images/reviews/Ellipse 1-1.png" alt="Polina Gagarina's comment" class="reviews__img">
+            </div>
+            <h2 class="reviews__name">Polina Gagarina</h2>
+            <p class="reviews__comment">
+              I didn't regret choosing this hotel. Very beautiful outside, modern inside. You can have a nice time here.
+              I advise you!
+            </p>
+          </div>
+          <div class="reviews__item">
+            <div class="reviews__picture">
+              <img src="images/reviews/Ellipse 1-2.png" alt="Adele's comment" class="reviews__img">
+            </div>
+            <h2 class="reviews__name">Adele</h2>
+            <p class="reviews__comment">
+              Thank you for the invitation, Moscow! I liked everything very much. Amazing hotel. With love, Adele
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="brand">
+          <div class="brand__logo">
+            <img class="brand__img" src="images/header/logo.svg" alt="Royal-Hotel Logo">
+          </div>
+          <h2 class="brand__title">Royal Hotel</h2>
+        </div>
+        <address class="footer__address">
+          <p class="footer__street">12,Prospekt Mira,Moscow,129090,</p>
+          <p class="footer__country">Russia</p>
+        </address>
+        <div class="footer__links">
+          <div class="social">
+            <p class="social__txt">Follow Us</p>
+            <div class="social__wrap">
+              <div class="social__item">
+                <img src="images/footer/instagram-social-svgrepo-com 1.svg" alt="instagram" class="social__logo">
+              </div>
+              <div class="social__item">
+                <img src="images/footer/telegram-svgrepo-com (1) 1.svg" alt="telegram" class="social__logo">
+              </div>
+              <div class="social__item">
+                <img src="images/footer/vk-svgrepo-com 1.svg" alt="vk" class="social__logo">
+              </div>
+            </div>
+          </div>
+          <a class="footer__phone-number" href="tel:+7(495)-232-14-20">
+            Tel.:+7(495)-232-14-20
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="./script/index.js"></script>
 </body>
+
 </html>

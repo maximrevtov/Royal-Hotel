@@ -1,12 +1,55 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+/* Blocks */
 @import '../blocks/page/page.css';
-/* Header */ 
+/* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__content/header__content.css';
+@import '../blocks/header/__descr/header__descr.css';
+@import '../blocks/header/__nav/header__nav.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+@import '../blocks/footer/__address/footer__address.css';
+@import '../blocks/footer/__country/footer__country.css';
+@import '../blocks/footer/__links/footer__links.css';
+@import '../blocks/footer/__phone-number/footer__phone-number.css';
+@import '../blocks/footer/__street/footer__street.css';
+@import '../blocks/footer/__wrap/footer__wrap.css';
+/* Container */
+@import '../blocks/container/container.css';
+/* Brand */
+@import '../blocks/brand/brand.css';
+@import '../blocks/brand/__img/brand__img.css';
+@import '../blocks/brand/__logo/brand__logo.css';
+@import '../blocks/brand/__title/brand__title.css';
+/* Nav */
+@import '../blocks/nav/nav.css';
+@import '../blocks/nav/__item/nav__item.css';
+@import '../blocks/nav/__list/nav__list.css';
+/* Reviews */
+@import '../blocks/reviews/reviews.css';
+@import '../blocks/reviews/__comment/reviews__comment.css';
+@import '../blocks/reviews/__img/reviews__img.css';
+@import '../blocks/reviews/__item/reviews__item.css';
+@import '../blocks/reviews/__name/reviews__name.css';
+@import '../blocks/reviews/__picture/reviews__picture.css';
+@import '../blocks/reviews/__wrap/reviews__wrap.css';
+/* Rooms */
+@import '../blocks/rooms/rooms.css';
+@import '../blocks/rooms/__img/rooms__img.css';
+@import '../blocks/rooms/__item/rooms__item.css';
+@import '../blocks/rooms/__picture/rooms__picture.css';
+@import '../blocks/rooms/__price/rooms__price.css';
+@import '../blocks/rooms/__room-class/rooms__room-class.css';
+@import '../blocks/rooms/__wrap/rooms__wrap.css';
+/* Social */
+@import '../blocks/social/social.css';
+@import '../blocks/social';
+@import '../blocks/social/__item/social__item.css';
+@import '../blocks/social/__logo/social__logo.css';
+@import '../blocks/social/__txt/social__txt.css';
+@import '../blocks/social/__wrap/social__wrap.css';
