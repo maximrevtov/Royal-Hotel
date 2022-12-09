@@ -1,0 +1,7 @@
+.header__content {
+  background: center/cover no-repeat url('../../../images/header/header__back.png');
+  height: 603px;
+  color: var(--text-white);
+  font-weight: 300;
+  padding-top: 65px;
+}

@@ -1,0 +1,14 @@
+.nav__list {
+  display: flex;
+  list-style: none;
+  width: 28%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+@media (max-width: 1279px) {
+  .nav__list {
+    width: 38%;
+  }
+}

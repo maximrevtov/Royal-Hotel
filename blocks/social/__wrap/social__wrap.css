@@ -1,0 +1,6 @@
+.social__wrap {
+  display: flex;
+  margin-left: 20px;
+  width: 52%;
+  justify-content: space-between;
+}

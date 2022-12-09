@@ -11,22 +11,26 @@
 
 <body class="page">
   <header class="header">
-    <div class="container">
-      <nav class="nav header__nav">
-        <div class="brand">
-          <div class="brand__logo">
-            <img class="brand__img" src="images/header/logo.svg" alt="Royal-Hotel Logo">
+    <nav class="nav header__nav">
+      <div class="container">
+        <div class="nav__wrap">
+          <div class="brand">
+            <div class="brand__logo">
+              <img class="brand__img" src="images/header/logo.svg" alt="Royal-Hotel Logo">
+            </div>
+            <h2 class="brand__title">Royal Hotel</h2>
           </div>
-          <h2 class="brand__title">Royal Hotel</h2>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Rooms</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Reviews</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+          </ul>
         </div>
-        <ul class="nav__list">
-          <li class="nav__item">About</li>
-          <li class="nav__item">Rooms</li>
-          <li class="nav__item">Reviews</li>
-          <li class="nav__item">Contacts</li>
-        </ul>
-      </nav>
-      <div class="header__content">
+      </div>
+    </nav>
+    <div class="header__content">
+      <div class="container">
         <h1 class="header__title">About Hotel</h1>
         <div class="header__descr">
           The Royal Hotel is a hotel located in the very center of the capital of Russia, built in 2014. In a short
@@ -39,6 +43,7 @@
   <main class="main">
     <section class="rooms">
       <div class="container">
+        <h2 class="rooms__title">Rooms</h2>
         <div class="rooms__wrap">
           <div class="rooms__item">
             <div class="rooms__picture">
@@ -73,35 +78,42 @@
     </section>
     <section class="reviews">
       <div class="container">
+        <h2 class="rooms__title">Reviews</h2>
         <div class="reviews__wrap">
           <div class="reviews__item">
             <div class="reviews__picture">
               <img src="images/reviews/Ellipse 1.png" alt="Sergey Lazarev's comment" class="reviews__img">
             </div>
-            <h2 class="reviews__name">Sergey Lazarev</h2>
-            <p class="reviews__comment">
-              Amazing hotel! Very polite staff, location in the city center. Here you can not only sleep, but also eat
-              delicious food. The best choice for a holiday in Moscow. I advise everyone!
-            </p>
+            <div class="reviews__text">
+              <h2 class="reviews__name">Sergey Lazarev</h2>
+              <p class="reviews__comment">
+                Amazing hotel! Very polite staff, location in the city center. Here you can not only sleep, but also eat
+                delicious food. The best choice for a holiday in Moscow. I advise everyone!
+              </p>
+            </div>
           </div>
           <div class="reviews__item">
             <div class="reviews__picture">
               <img src="images/reviews/Ellipse 1-1.png" alt="Polina Gagarina's comment" class="reviews__img">
             </div>
-            <h2 class="reviews__name">Polina Gagarina</h2>
-            <p class="reviews__comment">
-              I didn't regret choosing this hotel. Very beautiful outside, modern inside. You can have a nice time here.
-              I advise you!
-            </p>
+            <div class="reviews__text">
+              <h2 class="reviews__name">Polina Gagarina</h2>
+              <p class="reviews__comment">
+                I didn't regret choosing this hotel. Very beautiful outside, modern inside. You can have a nice time here.
+                I advise you!
+              </p>
+            </div>
           </div>
           <div class="reviews__item">
             <div class="reviews__picture">
               <img src="images/reviews/Ellipse 1-2.png" alt="Adele's comment" class="reviews__img">
             </div>
-            <h2 class="reviews__name">Adele</h2>
-            <p class="reviews__comment">
-              Thank you for the invitation, Moscow! I liked everything very much. Amazing hotel. With love, Adele
-            </p>
+            <div class="reviews__text">
+              <h2 class="reviews__name">Adele</h2>
+              <p class="reviews__comment">
+                Thank you for the invitation, Moscow! I liked everything very much. Amazing hotel. With love, Adele
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -121,7 +133,7 @@
           <p class="footer__country">Russia</p>
         </address>
         <div class="footer__links">
-          <div class="social">
+          <div class="social footer__social">
             <p class="social__txt">Follow Us</p>
             <div class="social__wrap">
               <div class="social__item">

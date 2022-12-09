@@ -1,0 +1,19 @@
+.footer__address {
+  margin-top: 12px;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  justify-self: start;
+  width: 65%;
+}
+
+@media (max-width: 1440px) {
+  .footer__address {
+    width: 55%;
+  }
+}
+@media (max-width: 1279px) {
+  .footer__address {
+    width: 44%;
+  }
+}

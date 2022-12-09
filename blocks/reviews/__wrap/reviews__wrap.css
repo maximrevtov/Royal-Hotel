@@ -1,0 +1,7 @@
+.reviews__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 90px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,8 @@
+.rooms__item {
+  justify-self: center;
+  text-align: center;
+}
+
+.rooms__item:nth-child(4) {
+  grid-column-start: 2;
+}

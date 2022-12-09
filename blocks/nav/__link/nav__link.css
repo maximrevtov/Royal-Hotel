@@ -1,5 +1,5 @@
-.footer__phone-number {
+.nav__link {
   text-decoration: none;
   color: var(--text-black);
-  font-size: 24px;
+  font-size: 20px;
 }
