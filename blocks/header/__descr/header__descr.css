@@ -6,7 +6,7 @@
 
 @media (max-width: 767px) {
   .header__descr {
-    width: 75vw;
+    width: 100%;
     text-align: justify;
   }
 }
