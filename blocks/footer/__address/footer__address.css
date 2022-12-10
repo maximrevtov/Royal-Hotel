@@ -17,3 +17,14 @@
     width: 44%;
   }
 }
+@media (max-width: 1023px) {
+  .footer__address {
+    width: 36%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__address {
+    width: 100%;
+  }
+}

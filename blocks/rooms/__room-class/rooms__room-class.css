@@ -2,3 +2,9 @@
   font-size: 32px;
   margin: 0;
 }
+
+@media screen {
+  .rooms__room-class {
+    font-size: 26px;
+  }
+}

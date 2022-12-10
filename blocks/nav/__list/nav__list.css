@@ -12,3 +12,18 @@
     width: 38%;
   }
 }
+@media (max-width: 1023px) {
+  .nav__list {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .nav__list {
+    width: 62%;
+  }
+}
+@media (max-width: 479px) {
+  .nav__list {
+    display: none;
+  }
+}

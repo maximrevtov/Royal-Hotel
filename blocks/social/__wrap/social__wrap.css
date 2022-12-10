@@ -4,3 +4,15 @@
   width: 52%;
   justify-content: space-between;
 }
+
+@media (max-width: 767px) {
+  .social__wrap {
+    width: 34%;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .social__wrap {
+    width: 45%;
+  }
+}

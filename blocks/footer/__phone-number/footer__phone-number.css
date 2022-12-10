@@ -3,3 +3,15 @@
   color: var(--text-black);
   font-size: 24px;
 }
+
+@media (max-width: 1023px) {
+  .footer__phone-number {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__phone-number {
+    display: block;
+    margin-top: 18px;
+  }
+}

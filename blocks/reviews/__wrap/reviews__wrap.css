@@ -5,3 +5,9 @@
   padding-bottom: 90px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 1023px) {
+  .reviews__wrap {
+    flex-direction: column;
+  }
+}

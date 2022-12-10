@@ -5,3 +5,16 @@
   column-gap: 17%;
   margin-top: 30px;
 }
+
+@media (max-width: 1023px) {
+  .rooms__wrap {
+    grid-template: repeat(2,1fr) / repeat(3,28%);
+    column-gap: 8%;
+  }
+}
+@media (max-width: 767px) {
+  .rooms__wrap {
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
+    row-gap: 30px;
+  }
+}

@@ -2,3 +2,14 @@
   display: flex;
   width: 29vw;
 }
+
+@media (max-width: 1023px) {
+  .reviews__item {
+    width: 90vw;
+    align-self: center;
+    margin-top: 50px;
+  }
+  .reviews__item:first-child {
+    margin-top: 0;
+  }
+}

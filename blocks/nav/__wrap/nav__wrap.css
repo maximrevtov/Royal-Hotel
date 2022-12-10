@@ -1,7 +1,7 @@
 .nav__wrap {
   display: flex;
   justify-content: space-between;
-  width: 94vw;
+  width: 100%;
   align-items: center;
   padding-top: 22px;
 }

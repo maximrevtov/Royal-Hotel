@@ -1,3 +1,9 @@
 .footer__links {
   text-align: right;
 }
+
+@media (max-width: 767px) {
+  .footer__links {
+    text-align-last: left;
+  }
+}

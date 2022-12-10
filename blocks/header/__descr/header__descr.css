@@ -3,3 +3,10 @@
   font-size: 20px;
   margin-top: 143px;
 }
+
+@media (max-width: 767px) {
+  .header__descr {
+    width: 75vw;
+    text-align: justify;
+  }
+}

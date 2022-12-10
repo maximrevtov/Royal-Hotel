@@ -1,3 +1,15 @@
 .rooms__img {
   width: 20vw;
 }
+
+@media (max-width: 1023px) {
+  .rooms__img {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .rooms__img {
+    width: 40vw;
+  }
+}

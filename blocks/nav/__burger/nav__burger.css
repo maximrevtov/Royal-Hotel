@@ -1,0 +1,13 @@
+.nav__burger {
+    background: center/90% no-repeat url('../../../images/header/Union.svg');
+    width: 22px;
+    height: 22px;
+    display: none;
+}
+
+@media (max-width: 479px) {
+    .nav__burger {
+        display: block;
+        cursor: pointer;
+    }
+}

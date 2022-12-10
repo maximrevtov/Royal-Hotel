@@ -33,6 +33,7 @@
 @import '../blocks/nav/__list/nav__list.css';
 @import '../blocks/nav/__wrap/nav__wrap.css';
 @import '../blocks/nav/__link/nav__link.css';
+@import '../blocks/nav/__burger/nav__burger.css';
 /* Reviews */
 @import '../blocks/reviews/reviews.css';
 @import '../blocks/reviews/__comment/reviews__comment.css';
